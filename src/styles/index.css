@@ -1,0 +1,32 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  margin: 0;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Iceland';
+  font-size: 2.1rem;
+}
+
+h2 {
+  font-family: 'Iceland';
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: 'Iceland';
+  font-size: 1rem;
+  font-weight: 200;
+}

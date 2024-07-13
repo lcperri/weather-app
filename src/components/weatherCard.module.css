@@ -1,0 +1,118 @@
+.weatherCard {
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 1rem;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+    background: linear-gradient(249deg, rgba(0,215,255,1) 0%, rgba(0,164,255,1) 73%);
+
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* color: white; */
+
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.44);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(34.9px);
+-webkit-backdrop-filter: blur(14.9px);
+border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.weatherCard div {
+    /* background-color: coral; */
+}
+
+.cardHeader {
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 10px;
+}
+
+.pinContainer {
+    padding: 20px;
+    height: 20px;
+    width: 230px;
+    height: 195px;
+    margin: 50px;
+}
+
+.pinContainer img:hover {
+    cursor: pointer;
+}
+
+.closeBtn {
+    display: grid;
+    /* align-content: end; */
+    align-items: center;
+    justify-items: end;
+    font-size: 1.5rem;
+}
+.closeBtn:hover {
+    cursor: pointer;
+}
+
+.cardPresentation {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+    font-size: 1.1rem;
+    min-width: 210px;    
+    max-width: 240px;
+    padding-bottom:10px;
+}
+
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 13px;
+}
+
+.imgCard {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.tempDetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.showDetails {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    transition: linear 3s;}
+
+.btnMoreLessDetails:hover {
+    cursor: pointer;
+}
+
+.forecastContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+.forecastContainer.show {
+    max-height: 500px;
+    opacity: 1;
+}

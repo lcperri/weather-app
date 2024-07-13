@@ -1,0 +1,23 @@
+.wrapper {
+  padding-top: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background: url('imgs/cyberpunk_wall.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  flex: 1; /* Este elemento tomará todo el espacio disponible, empujando el footer hacia abajo si es necesario */
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

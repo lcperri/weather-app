@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: 'Iceland';
+    font-weight:500;
+}
+
+h2 {
+    font-family: 'Iceland';
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+h3 {
+    font-family: 'Iceland';
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.icelandRegular {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,28 @@
+.container {
+    /* display:grid; 
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;     */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* background: linear-gradient(90deg, rgba(255,0,168,1) 0%, rgba(255,195,155,1) 41%, rgba(255,0,78,1) 100%); */
+}
+
+.title {
+    height: 2.5rem;
+    align-content: center;
+    color: white;
+    font-family: 'Iceland';
+    font-size: 30px;
+    
+}
+
+.weatherList {
+    /* display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+}

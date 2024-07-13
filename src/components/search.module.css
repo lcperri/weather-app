@@ -1,0 +1,13 @@
+.search form input {
+    border-radius: 16px ;
+    border: none;;
+    padding: 0.3rem;
+    margin: 0.4rem 0.5rem
+}
+
+button {
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgba(112, 105, 105, 0.623);
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
