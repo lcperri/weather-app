@@ -14,8 +14,8 @@ const Header = () => {
             </div>
                 
             <div style={{color:'white',size: '40px'}}>
-                <h2>Just enter the name of a city: <br/> 
-                    <small>(while there are still climates in the world)</small>
+                <h2>The climate of your city and that of the cities you want:<br/> s
+                    <small>(Try it while there are still climates in the world)</small>
                 </h2>
             </div>
             <Search/>
