@@ -14,7 +14,7 @@ const Header = () => {
             </div>
                 
             <div style={{color:'white',size: '40px'}}>
-                <h2>The climate of your city and that of the cities you want:<br/> s
+                <h2>The climate of your city and that of the cities you want:<br/>
                     <small>(Try it while there are still climates in the world)</small>
                 </h2>
             </div>
