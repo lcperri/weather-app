@@ -48,7 +48,7 @@ function App() {
 
       setShowedCardDetails([...showedCardDetails, cityResult.id])
     }
-  }, [lat, long])
+  }, [])
 
   return (
     <div className={styles.wrapper}>
